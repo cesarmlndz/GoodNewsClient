@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Courier+Prime&family=Poppins:wght@400;600&family=Roboto:wght@100;300&family=Teko:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: rgb(14, 14, 33);
+    overflow: scroll;
+}
+
+.window {
+    width: 100vw;
+}

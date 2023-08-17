@@ -1,0 +1,163 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.modal-card {
+    width: 35%;
+    padding: 2rem;
+    background: rgb(14, 14, 33);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #80dc98;
+    border-radius: 10px;
+}
+
+.modal-card h1 {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.add-job-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.add-job-form input {
+    width: 70%;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+}
+
+.add-job-form input:focus {
+    outline: none;
+}
+
+.add-job-select {
+    width: 70%;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem
+}
+
+.add-job-form-btns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.back-btn {
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.continue-btn {
+    padding: 0.5rem 3rem;
+    background: #80dc98;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.disabled-btn {
+    padding: 0.5rem 3rem;
+    cursor: not-allowed;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: rgb(163, 163, 163);
+    color: rgb(90, 90, 90);
+}
+
+.delete-btn {
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem;
+    background: rgb(255, 139, 139);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.delete-btn:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+    .modal-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 900px) {
+    .modal-card {
+        width: 55%;
+    }
+}
+
+@media (max-width: 700px) {
+    .modal-card {
+        width: 55%;
+    }
+
+    .add-job-form input {
+        width: 100%;
+    }
+
+    .add-job-form select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .modal-card {
+        width: 60%;
+    }
+
+    .add-job-form-btns button {
+        padding: 0.3rem 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .modal-card {
+        width: 70%;
+    }
+
+    .add-job-form input {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .add-job-form select {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .add-job-form-btns button {
+        padding: 0.3rem 2rem;
+    }
+}
