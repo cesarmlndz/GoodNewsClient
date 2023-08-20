@@ -46,6 +46,7 @@
     border-radius: 5px;
     font-size: 1rem;
     border: none;
+    color: black;
 }
 
 .add-job-form input:focus {
@@ -71,6 +72,7 @@
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
+    color: black;
 }
 
 .continue-btn {
@@ -79,6 +81,7 @@
     border: none;
     border-radius: 5px;
     font-size: 1rem;
+    color: black;
     cursor: pointer;
 }
 

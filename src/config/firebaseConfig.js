@@ -1,8 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth"
 
-console.log(process.env.REACT_APP_API_KEY.slice(1, -2))
-
 const firebaseConfig = {
   apiKey: "AIzaSyCPz_NVx7K2bT3jYGmEZN7SL3nxdY_4WQU",
   authDomain: "goodnewsx-87b94.firebaseapp.com",
