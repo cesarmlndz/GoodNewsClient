@@ -62,6 +62,19 @@
     color: black;
 }
 
+input::-webkit-datetime-edit {
+    width: 70%;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    color: black;
+}
+
+input::-webkit-calendar-picker-indicator {
+    margin-left: 0px;
+}
+
 .add-job-select {
     width: 70%;
     padding: 0.8rem 1rem;
