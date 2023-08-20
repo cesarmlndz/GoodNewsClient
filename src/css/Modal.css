@@ -53,11 +53,21 @@
     outline: none;
 }
 
+.add-date-input {
+    width: 70%;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    color: black;
+}
+
 .add-job-select {
     width: 70%;
     padding: 0.8rem 1rem;
     border-radius: 5px;
-    font-size: 1rem
+    font-size: 1rem;
+    color: black;
 }
 
 .add-job-form-btns {
