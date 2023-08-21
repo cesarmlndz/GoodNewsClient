@@ -49,7 +49,7 @@
     color: black;
 }
 
-#add-date-input {
+input[type=date] {
     width: 70%;
     padding: 0.8rem 1rem;
     border-radius: 5px;
@@ -140,7 +140,7 @@
         width: 100%;
     }
 
-    #add-date-input {
+    input[type=date] {
         width: 100%;
     }
 
@@ -169,7 +169,7 @@
         font-size: 0.9rem;
     }
 
-    #add-date-input {
+    input[type=date] {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
     }
