@@ -52,7 +52,7 @@ export default function AddModal(props) {
                 <div className='add-job-form'>
                     <input placeholder='Company Name' onChange={(e) => setListingForm({...listingForm, companyName: e.target.value})} required></input>
                     <input placeholder='Position Title' onChange={(e) => setListingForm({...listingForm, positionTitle: e.target.value})} required></input>
-                    <input type='date' className='add-date-input' onChange={(e) => setListingForm({...listingForm, dateApplied: e.target.value})} required></input>
+                    <input type='date' id='add-date-input' onChange={(e) => setListingForm({...listingForm, dateApplied: e.target.value})} required></input>
                    <select className='add-job-select' onChange={(e) => setListingForm({...listingForm, jobStatus: e.target.value})} defaultValue='Pending'>
                         <option value='Pending'>Pending</option>
                         <option value='Hired'>Hired</option>

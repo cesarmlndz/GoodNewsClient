@@ -49,27 +49,17 @@
     color: black;
 }
 
+#add-date-input {
+    width: 70%;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    color: black;
+}
+
 .add-job-form input:focus {
     outline: none;
-}
-
-input[type=date]::-webkit-calendar-picker-indicator {
-    width: 70%;
-    padding: 0.8rem 1rem;
-    border-radius: 5px;
-    font-size: 1rem;
-    border: none;
-    color: black;
-}
-
-
-input[type=date]::-webkit-datetime-edit {
-    width: 70%;
-    padding: 0.8rem 1rem;
-    border-radius: 5px;
-    font-size: 1rem;
-    border: none;
-    color: black;
 }
 
 .add-job-select {
@@ -150,6 +140,10 @@ input[type=date]::-webkit-datetime-edit {
         width: 100%;
     }
 
+    #add-date-input {
+        width: 100%;
+    }
+
     .add-job-form select {
         width: 100%;
     }
@@ -171,6 +165,11 @@ input[type=date]::-webkit-datetime-edit {
     }
 
     .add-job-form input {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    #add-date-input {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
     }
